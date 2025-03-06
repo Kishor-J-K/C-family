@@ -8,7 +8,7 @@ struct Node
     struct Node *next;
 };
 
-struct Node *head; // global variable
+struct Node *head = NULL; // global variable
 
 void Insert(int x)
 {
